@@ -1,0 +1,37 @@
+/* style.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+    font-size: 12pt;
+}
+
+body {
+    background-color: ghostwhite;
+}
+
+main {
+    margin-top: 20px;
+}
+
+.game-container {
+    display: grid;
+    place-items: center;
+    width: 100vw;
+}
+
+#game-canvas {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+canvas {
+    border: 3px solid black;
+    box-shadow: 3px 3px 3px black;
+    box-sizing: content-box;
+}

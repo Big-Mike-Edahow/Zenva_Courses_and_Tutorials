@@ -1,0 +1,5 @@
+# PhaserJS Space Man
+
+## Assets copyright
+The art assets used in this tutorial are created by Kenney Vleugels and can be found at www.kenney.nl. 
+All assets used are public domain CC0 licensed.
