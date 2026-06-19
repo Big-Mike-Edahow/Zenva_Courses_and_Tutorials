@@ -1,0 +1,44 @@
+/* style.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+    font-size: 12pt;
+}
+
+body {
+    background-color: azure;
+}
+
+main {
+    margin-top: 50px;
+}
+
+.center {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#sign {
+    color: red;
+}
+
+button {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin: 2px 5px;
+    padding: 2px 3px;
+    border: 2px solid black;
+    border-radius: 3px;
+    box-shadow: 2px 2px 2px black;
+}
+
+button:active {
+    box-shadow: inset 2px 2px 2px black;
+}
