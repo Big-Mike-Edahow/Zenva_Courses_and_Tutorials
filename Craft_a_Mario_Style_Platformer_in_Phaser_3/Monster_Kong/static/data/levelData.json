@@ -1,0 +1,69 @@
+{
+  "world": {
+    "width": 360,
+    "height": 700
+  },
+  "spawner": {
+    "interval": 3000,
+    "speed": 80,
+    "lifespan": 30000
+  },
+  "player": {
+    "x": 190,
+    "y": 538
+  },
+  "goal": {
+    "x": 30,
+    "y": 90
+  },
+  "platforms": [
+    {
+      "x": 0,
+      "y": 130,
+      "numTiles": 7,
+      "key": "block"
+    },
+        {
+      "x": 80,
+      "y": 250,
+      "numTiles": 8,
+      "key": "block"
+    },
+    {
+      "x": 0,
+      "y": 380,
+      "numTiles": 8,
+      "key": "block"
+    },
+    {
+      "x": 150,
+      "y": 520,
+      "numTiles": 6,
+      "key": "block"
+    },
+    {
+      "x": 0,
+      "y": 630,
+      "numTiles": 1,
+      "key": "ground"
+    }
+  ],
+  "fires": [
+    {
+      "x": 340,
+      "y": 230
+    },
+    {
+      "x": 180,
+      "y": 360
+    },
+    {
+      "x": 230,
+      "y": 500
+    },
+     {
+      "x": 12,
+      "y": 610
+    }
+  ]
+}
